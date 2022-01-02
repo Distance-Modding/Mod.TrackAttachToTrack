@@ -14,7 +14,7 @@ using LevelEditorTools;
 using UnityEngine;
 using LevelEditorActions;
 
-namespace Distance.EditorAnnihilator.Harmony
+namespace Mod.EditorAnnihilator.Harmony
 {
     [HarmonyPatch(typeof(GroupTool), "Run")]
     internal static class GroupTool__Run

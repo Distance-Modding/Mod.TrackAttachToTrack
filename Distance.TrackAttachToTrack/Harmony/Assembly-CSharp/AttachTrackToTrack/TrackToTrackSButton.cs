@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using UnityEngine;
 
-namespace Distance.TrackAttachToTrack.Harmony
+namespace Mod.TrackAttachToTrack.Harmony
 {
     [EditorTool, KeyboardShortcut("SHIFT+ALT+A")]
     public class TrackAttachToTrackToolS : InstantTool

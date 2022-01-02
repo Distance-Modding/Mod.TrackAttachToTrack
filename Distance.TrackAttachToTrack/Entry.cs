@@ -13,7 +13,7 @@ using System.Linq;
 using System.Text;
 using UnityEngine;
 
-namespace Distance.EditorAnnihilator
+namespace Mod.EditorAnnihilator
 {
     [ModEntryPoint("com.github.pred/Distance.TrackAttachToTrack")]
     public class Mod : MonoBehaviour

@@ -6,7 +6,7 @@ using Reactor.API.Configuration;
 using System;
 using UnityEngine;
 
-namespace Distance.EditorAnnihilator
+namespace Mod.EditorAnnihilator
 {
 	public class ConfigurationLogic : MonoBehaviour
 	{
