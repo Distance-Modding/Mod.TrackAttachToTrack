@@ -53,7 +53,7 @@ namespace Distance.EditorAnnihilator
             new CheckBox(MenuDisplayMode.MainMenu, "setting:enable_disable_trackgrouping", "ENABLE GROUPING TRACK ATTACHMENTS")
             .WithGetter(() => Config.gta)
             .WithSetter((x) => Config.gta = x)
-            .WithDescription("Normally, you can only group track attachments with the track they are attached to, but enabling this removes this restriction. The reason this is an option and not a default feature is that it can produce some weird effects under certain circumstances. Say you attach an object to a track, group that object, and then delete the track, and then ungroup the object. The object will then have a track attachment to a nonexistant track, which can cause the editor to freak out and crash under certain circumstances (Though you can remove it just fine if you don't try to do anything else with it first, like duplicating the object or something.).")
+            .WithDescription("Normally, you can only group track attachments with the track they are attached to, but enabling this removes this restriction. The reason this is an option and not a default feature is that it can produce some weird effects under certain circumstances.")
             };
 
             Menus.AddNew(MenuDisplayMode.Both, settingsMenu, "TrackAttachToTrack", "Settings for the TrackAttachToTrack mod.");
