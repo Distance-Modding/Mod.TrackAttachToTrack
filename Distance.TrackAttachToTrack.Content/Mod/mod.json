@@ -1,0 +1,12 @@
+{
+	"FriendlyName": "TrackAttachToTrack",
+	"Author": "PB",
+	"Contact": "( .-.)",
+	"ModuleFileName": "Distance.TrackAttachToTrack.dll",
+	"Dependencies": [],
+	"SkipLoad": false,
+	"Priority": 10,
+	"RequiredGSLs": [
+		"com.github.reherc/Centrifuge.Distance"
+	]
+}

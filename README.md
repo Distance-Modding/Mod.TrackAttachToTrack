@@ -1,16 +1,6 @@
-# Distance mod template
+# Distance TrackAttachToTrack
 
-Use this repository as a base to create your own Distance mods.
-
-# Using the template
-On github, click the `Use this template` button to create a new repository based on this one
-
-Once the repository is created, be sure to clone it locally **with submodules**:
-```sh
-git clone --recurse-submodules -j8 <your project .git url>
-```
-
-# Setting up the project
-After cloning the repository on your local drive, run the [setup.ps1](setup.ps1) script using [PowerShell 7 or higher](https://github.com/PowerShell/PowerShell#get-powershell).
-
-This script will rename the files correctly and replace their content to match your mod name.
+## Features:
+-TrackAttachToTrackTool (Shortcut <kbd>Ctrl+Shift+A</kbd>.), which attaches all selected objects to the first spline selected. Even other splines. Detatches when an attached object is selected.
+-TrackAttachToTrackTool+ (Shortcut <kbd>Ctrl+Alt+A</kbd>.), which attaches all selected objects to the first spline selected. Even other splines. Never detaches, so can be used to attach 2 splines to eachother, for example.
+-An option to enable the ability to group track attachments to objects that aren't the track they are attached to (But it is disabled by default.). Normally, you can only group track attachments with the track they are attached to, but enabling this removes this restriction. The reason this is an option and not a default feature is that it can produce some weird effects under certain circumstances. Say you attach an object to a track, group that object, and then delete the track, and then ungroup the object. The object will then have a track attachment to a nonexistant track, which can cause the editor to freak out and crash under certain circumstances (Though you can remove it just fine if you don't try to do anything else with it first, like duplicating the object or something.). It's not unstable so long as you don't put it in such a position though.
