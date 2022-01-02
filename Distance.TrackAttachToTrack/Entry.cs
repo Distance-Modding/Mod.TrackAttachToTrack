@@ -15,7 +15,7 @@ using UnityEngine;
 
 namespace Mod.EditorAnnihilator
 {
-    [ModEntryPoint("com.github.pred/Distance.TrackAttachToTrack")]
+    [ModEntryPoint("com.github.PredatoryBalloon/Distance.TrackAttachToTrack")]
     public class Mod : MonoBehaviour
     {
         public static Mod Instance;
